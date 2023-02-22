@@ -28,6 +28,13 @@ See our [project page](https://esslab.jp/~ess/research/sketch_master/) for more 
 - [PyTorch](http://pytorch.org/)
 - [torchvision](http://pytorch.org/docs/master/torchvision/)
 - [pillow](http://pillow.readthedocs.io/en/latest/index.html)
+```
+conda create -n smm python==3.7
+conda activate ssm
+git clone https://github.com/bush-21/sketch_simplification
+cd sketch_simplification
+conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 -c pytorch
+```
 
 All packages should be part of a standard PyTorch install. For information on how to install PyTorch please refer to the [torch website](http://pytorch.org/).
 
