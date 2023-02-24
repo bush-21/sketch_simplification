@@ -70,7 +70,7 @@ You should see a file called `out.png` created with the output of the model.
 
 You can test your images with:
 ```
-python simplify_f.py --input_path /input_path/ --out _path /out_path/
+python simplify_f.py --input_path /input_path/ --out_path /out_path/
 ```
 Application options can be seen with:
 
