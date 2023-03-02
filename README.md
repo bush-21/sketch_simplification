@@ -29,7 +29,7 @@ See our [project page](https://esslab.jp/~ess/research/sketch_master/) for more 
 - [torchvision](http://pytorch.org/docs/master/torchvision/)
 - [pillow](http://pillow.readthedocs.io/en/latest/index.html)
 ```
-conda create -n smm python==3.7
+conda create -n ssm python==3.7
 conda activate ssm
 git clone https://github.com/bush-21/sketch_simplification
 cd sketch_simplification
